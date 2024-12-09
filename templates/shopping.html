@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>shopping page</title>
+    <style>
+        center{
+            background-color:slateblue;
+            border:2px solid black;
+            border-radius:100px;
+          }
+          a{
+            background-color: rgb(98, 255, 0);
+            color: aliceblue;
+            border-radius:30px;
+          }
+    </style>
+</head>
+<body>
+    <CENTER>
+         <h1>this is shopping page</h1>
+         <a href="{% url 'food:nonveg' %}">go to food page</a>  
+         <br>       
+         <a href="{% url 'house' %}">go to home page</a>         
+        
+    </CENTER>
+</body>
+</html>
